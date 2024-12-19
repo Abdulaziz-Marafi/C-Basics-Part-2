@@ -48,4 +48,11 @@ Console.WriteLine("The total amount in the array is: "+total);
 as well as tabulating data. They are used instances in which you would like to store an array of arrays. An example would of its use
 would be: A company contains multiple depratments and each department contains multiple employees, to properly tabulate the 
 employee data you can store the employees in an array of their department and then store the department in an array called company.*/
-   
+
+// Implementing the example
+
+string[] itDepratment = { "Aziz", "Ahmed", "Farah" };
+string[] financeDepartment = { "Hawraa", "Ali", "Moe", "Sarah" };
+string[] hrDepartment = { "Sam", "Yone" };
+
+string[][] company = {itDepratment, financeDepartment, hrDepartment };
